@@ -52,7 +52,11 @@ Using the arguments, the `checkChannels()` function checks the `after` channel t
 
 The server has a dedicated `❔︱Click here for help!` voice channel, where new voice channel will be generated using `category.create_voice_channel()` upon request when a user joins the `❔︱Click here for help!` channel. Then the user will be moved to the newly generated voice channel using `member.move_to()`. This support voice channel allows for anyone to start a new call that notifies support staff when a participant is in need of help, and can join the temporary voice channel to aid them.
 
+<img src="https://i.imgur.com/tMh30Mv.gif" alt="GIF of generating a new temporary support channel" width="200"/>
+
 The server also has a dedicated voice channels for generating group calls (`⛺︱2 People`, `🏠︱5 People`, `🏨︱10 People`, `🎉︱No Limit`), where a new voice channel will be generated using `category.create_voice_channel()` upon request when a user joins any of the listed dedicated voice channels. Each temporary voice channel will also be set with a user limit to how many people can join the voice channel at once, depending on the specific limit that a user requests upon generating the new voice channel.
+
+<img src="https://i.imgur.com/vQEMJcQ.gif" alt="GIF of generating a new temporary group channel" width="200"/>
 
 ## 🛠 How to Install
 Due to the code being designed specific to the Discord server that it was intended for, there is no reason to use the exact same Discord bot in your own server.
