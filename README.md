@@ -5,7 +5,7 @@ This bot was dedicated for the official Discord Events Server for Google Develop
 
 ## 📑 Contents
 
-1. **[How it Works](#-how-it-works)**  
+1. **[How it Works](#%EF%B8%8F-how-it-works)**  
 1.1 [Dependencies](#dependencies)  
 1.2 [Discord API](#discord-api)  
 2. **[How to Install](#-how-to-install)**  
