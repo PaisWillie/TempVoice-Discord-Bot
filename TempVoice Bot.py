@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 # token
 load_dotenv()
-TOKEN = os.getenv('DISCORD_TOKEN')
+TOKEN = os.getenv('ODE5OTgwODE5MTY2MjY1MzU0.YEugpQ.acFqYeUUgAQmC_dV1qHNOuKr5IU')
 
 support_channel = 792785756636184587
 
